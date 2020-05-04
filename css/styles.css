@@ -1,0 +1,332 @@
+@font-face {
+  font-family: 'HaloHandletter';
+  src: url('../fonts/HaloHandletter.ttf.woff') format('woff'),
+    url('../fonts/HaloHandletter.ttf.svg#HaloHandletter') format('svg'),
+    url('../fonts/HaloHandletter.ttf.eot'),
+    url('../fonts/HaloHandletter.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Halimun';
+  src: url(../'Halimun.ttf.woff') format('woff'),
+    url(../'Halimun.ttf.svg#Halimun') format('svg'),
+    url(../'Halimun.ttf.eot'),
+    url(../'Halimun.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+}
+
+h1 {
+  margin: 0px auto 0 auto;
+  font-family: 'HaloHandletter';
+  font-size: 8em;
+  color: #77C9BF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8em;
+  color: #77C9BF
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3BBCC1;
+  font-size: 18px;
+}
+
+a {
+  color: #3BBCC1
+}
+
+.I {
+  width: 8%;
+  position: absolute;
+  left: 6%;
+  top: 6%;
+}
+
+.sun {
+  width: 10%;
+  position: absolute;
+  left: 9%;
+  top: 22%;
+  transform: rotate(345deg);
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 12%;
+  bottom: 260%;
+}
+
+.navbar li {
+  display: inline-flex;
+  margin: 4%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #77C9BF
+}
+
+.nav:hover {
+  color: #0e8387;
+  text-decoration: none;
+}
+
+.name {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  height: 144px;
+}
+
+.name h1 {
+  position: absolute;
+}
+
+.name .umlaut {
+  left: 255px;
+  top: -38px;
+}
+
+.wd {
+  position: relative;
+  top: -20px;
+}
+
+.top {
+  background-color: #daf7e9;
+  padding-top: 100px;
+}
+
+.middle {}
+
+.butt {
+  background-color: #77C9BF;
+  text-decoration: none;
+}
+
+.cloud1 {
+  position: absolute;
+  left: 200px;
+  width: 15%;
+}
+
+.cloud2 {
+  position: absolute;
+  right: 250px;
+  bottom: 80px;
+  top: 70px;
+  width: 15%;
+}
+
+.wd {
+  font-weight: normal;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.skill-row-text p {
+  font-size: 14px;
+}
+
+hr {
+  border: 4.5px dotted #EAF6F6;
+  border-style: none none dotted;
+  color: #EAF6F6;
+  background-color: transparent;
+  width: 4%;
+  margin: 10% 48%;
+}
+
+.footer-link {
+  text-decoration: none;
+  display: inline-block;
+  width: 115px;
+  font-family: 'Montserrat', sans-serif;
+  color: #64ABA2;
+  font-size: 1.1rem;
+}
+
+.footer-link:hover {
+  color: #0e8387;
+  text-decoration: none;
+}
+
+.butt p {
+  margin: 30px auto 0 auto;
+}
+
+.butt {
+  padding: 30px
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 12px
+}
+
+.unicorn {
+  width: 83%;
+}
+
+.HotAir {
+  width: 10%;
+  position: absolute;
+  right: 130px;
+  top: 170px;
+}
+
+.Me {
+  width: 15%;
+  margin-top: 100px
+}
+
+.intro {
+  font-family: adobe-garamond-pro, serif;
+}
+
+.btn {
+  background-color: #77C9BF;
+  border: none;
+  color: #11999E;
+  padding: 12px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  width: 13%;
+}
+
+.btn:hover {
+  background-color: #3BBCC1;
+  color: #0e8387;
+}
+
+.btn .fa {
+  padding: 10px;
+}
+
+.contact-me {
+  padding-bottom: 90px
+}
+
+.skills {
+  width: 75%;
+  margin: auto;
+  min-width: 791px
+}
+
+.skill-row, .skill-row-alt {
+  margin: 100px auto 100px auto;
+  width: 84%;
+  text-align: left;
+  height: 200px;
+}
+
+.skill-row h3, .skill-row-alt h3 {
+  text-align: left;
+}
+
+.skill-row p, .skill-row-alt p {
+  text-align: left;
+  line-height: 2
+}
+
+.skill-row-image {
+  width: 365px;
+  height: 200px;
+}
+
+.skill-row .skill-row-image {
+  float: left;
+}
+
+.skill-row-alt .skill-row-image {
+  float: right;
+}
+
+.img-workskill {
+  float: left;
+  width: 265px;
+}
+
+.img-artskill {
+  float: right;
+  width: 276px;
+}
+
+.img-schoolskill {
+  float: left;
+  width: 276px;
+}
+
+.slide-container-outer {
+  width: 77px;
+}
+
+.slide-container {
+  display: inline-block;
+  width: 77px;
+  height: 77px;
+  background-color: #F3F2F1;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+}
+
+.skill-row .slide-container {
+  float: left;
+}
+
+.skill-row-alt .slide-container {
+  float: right;
+}
+
+.skill-row-text {
+  width: 52%;
+  height: 200px;
+  padding: 5px 20px;
+}
+
+.skill-row .skill-row-text {
+  float: right;
+}
+
+.skill-row-alt .skill-row-text {
+  float: left;
+}
+
+.w3-content {
+  position: relative;
+  top: 8px;
+  width: 55px;
+  height: 55px;
+}
+
+.w3-section, .w3-code {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important
+}
+
+.mySlides1, .mySlides2, .mySlides3 {
+  display: none;
+}
